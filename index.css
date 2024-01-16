@@ -1,7 +1,8 @@
 
 body {
- background-image: url('https://img.freepik.com/free-vector/gradient-dynamic-purple-lines-background_23-2148995757.jpg?w=1060&t=st=1705425231~exp=1705425831~hmac=48c0f2562dc172a9c997b1e04d20cf7e0b6dff49d55c563e125c7a59e5e4daed');
+ /* background-image: url('https://img.freepik.com/free-vector/gradient-dynamic-purple-lines-background_23-2148995757.jpg?w=1060&t=st=1705425231~exp=1705425831~hmac=48c0f2562dc172a9c997b1e04d20cf7e0b6dff49d55c563e125c7a59e5e4daed'); */
  background-size: cover;
+ background-color: #180243;
 }
 .login-container {
 

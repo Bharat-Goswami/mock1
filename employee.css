@@ -1,0 +1,86 @@
+/* Add your styling here */
+
+/* Add styling for employee cards and pagination links */
+
+.employee-card {
+    background-image: url(https://img.freepik.com/free-vector/simple-blue-gradient-background-vector-business_53876-166894.jpg?w=360&t=st=1705422694~exp=1705423294~hmac=45f71fbad3d7ba389e51285e7415ae5151fe78999db6f1f9fc6ea3e8868bdf77);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+}
+.employee-card img{
+    border-radius: 50%;
+    width: 70%;
+}
+#page-header {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; /* Adjust background color as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+    z-index: 1000; /* Ensure the header stays on top of other elements */
+}
+#pagination-container {
+    margin-top: 30px;
+}
+
+#pagination-container a {
+    margin-right: 5px;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#pagination-container a.active {
+    background-color: #007bff;
+    color: #fff;
+}
+#employee-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    gap: 20px; /* Adjust the gap between cards as needed */
+    margin-top: 120px;
+    /* width: 30%; */
+    
+}
+#filter-container{
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    align-items: center;
+ 
+}
+#filter-container select{
+    margin-right: 10px;
+}
+#logout{
+    margin: 20px;
+}
+
+/* CSS */
+#logout{
+  background: #5E5DF0;
+  border-radius: 2%;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 6px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
